@@ -2,8 +2,8 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-11 10:02:29
- * @LastEditTime: 2023-04-13 11:24:43
- * @LastEditors: lizhiliang
+ * @LastEditTime: 2023-04-13 23:56:37
+ * @LastEditors: Derick.lizhiliang
  * @Usage: 
 -->
 <script setup lang="ts">
@@ -18,7 +18,7 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">New count is {{ count }}</button>
+    <button type="button" @click="count++">Docker count is {{ count }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
