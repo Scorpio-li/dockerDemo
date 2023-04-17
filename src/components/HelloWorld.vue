@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-11 10:02:29
- * @LastEditTime: 2023-04-13 23:56:37
+ * @LastEditTime: 2023-04-16 14:21:11
  * @LastEditors: Derick.lizhiliang
  * @Usage: 
 -->
@@ -18,7 +18,7 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">Docker count is {{ count }}</button>
+    <button type="button" @click="count++">Derick count is {{ count }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
