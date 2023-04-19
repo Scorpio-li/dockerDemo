@@ -5,6 +5,9 @@ import { useRouter } from "vue-router";
 const btns = [{
     name: '加载异常',
     url: '/errorException'
+}, {
+  name: '数据处理',
+  url: '/dataProcessing'
 }]
 const router = useRouter()
 

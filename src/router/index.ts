@@ -11,6 +11,11 @@ const routes = [
         path: '/errorException',
         name: 'ErrorException',
         component: () => import('../pages/errorException.vue')
+    },
+    {
+        path: '/dataProcessing',
+        name: 'DataProcessing',
+        component: () => import('../pages/dataProcessing.vue')
     }
 ]
 

@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@derick1028/data-processing': 1.0.1-alpha.2
   '@vitejs/plugin-vue': ^4.1.0
   typescript: ^4.9.3
   vite: ^4.2.0
@@ -9,6 +10,7 @@ specifiers:
   vue-tsc: ^1.2.0
 
 dependencies:
+  '@derick1028/data-processing': 1.0.1-alpha.2
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
 
@@ -42,6 +44,10 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+
+  /@derick1028/data-processing/1.0.1-alpha.2:
+    resolution: {integrity: sha512-m6OffG5qw2qnZ1PT6UAhn9PIE04HZ0ye7MlkJwYMEA8t6D9q/qeM4yJstjXkhpclYeTkgBB1dHPWkER0fQSHcg==}
+    dev: false
 
   /@esbuild/android-arm/0.17.16:
     resolution: {integrity: sha512-baLqRpLe4JnKrUXLJChoTN0iXZH7El/mu58GE3WIA6/H834k0XWvLRmGLG8y8arTRS9hJJibPnF0tiGhmWeZgw==}
