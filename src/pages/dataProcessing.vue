@@ -4,8 +4,11 @@ const text = showMsg()
 </script>
 
 <template>
-  <h1>npm: 数据处理</h1>
-  <p>测试数据：{{ text }}</p>
+  <div>
+    <h1>npm: 数据处理</h1>
+    <p>测试数据：{{ text }}</p>
+  </div>
+  
 </template>
 
 <style scoped>
