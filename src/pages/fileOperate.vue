@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-19 18:02:10
- * @LastEditTime: 2023-04-19 18:09:38
+ * @LastEditTime: 2023-04-20 14:26:44
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -19,7 +19,7 @@
   import FileSaver from 'file-saver'
   
   export default {
-    name: 'ExportRouterJson',
+    name: 'FileOperate',
   
     computed: {
       visible() {

@@ -9,8 +9,8 @@ const btns = [{
   name: '数据处理',
   url: '/dataProcessing'
 }, {
-  name: '文件保存',
-  url: '/file'
+  name: '文件处理',
+  url: '/fileOperate'
 }]
 const router = useRouter()
 

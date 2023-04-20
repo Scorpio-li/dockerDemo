@@ -18,9 +18,9 @@ const routes = [
         component: () => import('../pages/dataProcessing.vue')
     },
     {
-        path: '/file',
-        name: 'File',
-        component: () => import('../pages/file.vue')
+        path: '/fileOperate',
+        name: 'FileOperate',
+        component: () => import('../pages/fileOperate.vue')
     }
 ]
 
