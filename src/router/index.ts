@@ -16,6 +16,11 @@ const routes = [
         path: '/dataProcessing',
         name: 'DataProcessing',
         component: () => import('../pages/dataProcessing.vue')
+    },
+    {
+        path: '/file',
+        name: 'File',
+        component: () => import('../pages/file.vue')
     }
 ]
 

@@ -1,0 +1,40 @@
+<!--
+ * @Description: 
+ * @Author: Lizhiliang
+ * @Date: 2023-04-19 18:02:10
+ * @LastEditTime: 2023-04-19 18:09:38
+ * @LastEditors: lizhiliang
+ * @Usage: 
+-->
+<template>
+    <button 
+        v-if="visible"
+        type="primary"
+        @click="exportRouters"
+    >导出路由</button>
+</template>
+  
+<script>
+  import dynamicRouters from '../router/index'
+  import FileSaver from 'file-saver'
+  
+  export default {
+    name: 'ExportRouterJson',
+  
+    computed: {
+      visible() {
+        // console.log('process', process)
+        // return process.env.NODE_ENV === 'development'
+        return true
+      }
+    },
+  
+    methods: {
+      exportRouters() {
+        const jsonStr = JSON.stringify(dynamicRouters)
+        const blob = new Blob([jsonStr], { type: "text/json" })
+        FileSaver.saveAs(blob, '系统路由表.json')
+      }
+    }
+  }
+  </script>

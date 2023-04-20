@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@derick1028/data-processing': 1.0.1-alpha.2
   '@vitejs/plugin-vue': ^4.1.0
+  file-saver: ^2.0.5
   typescript: ^4.9.3
   vite: ^4.2.0
   vue: ^3.2.47
@@ -11,6 +12,7 @@ specifiers:
 
 dependencies:
   '@derick1028/data-processing': 1.0.1-alpha.2
+  file-saver: 2.0.5
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
 
@@ -423,6 +425,10 @@ packages:
 
   /estree-walker/2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
+
+  /file-saver/2.0.5:
+    resolution: {integrity: sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==}
+    dev: false
 
   /fsevents/2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
