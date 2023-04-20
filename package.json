@@ -2,10 +2,13 @@
   "name": "vite-project-docker",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "server": "vue-tsc && vite build",
+    "build": "vite build",
+    "deploy:dev": "deploy-cli-service deploy --mode dev",
+    "deploy:test": "deploy-cli-service deploy --mode test",
+    "deploy:prod": "deploy-cli-service deploy --mode prod",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "deploy-cli-service": "^1.4.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
     "vue-tsc": "^1.2.0"

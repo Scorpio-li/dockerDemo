@@ -1,0 +1,20 @@
+module.exports = {
+  projectName: "dockerdemo",
+  privateKey: "C:\\Users\\li.zhiliang/.ssh/id_rsa",
+  passphrase: "",
+  readyTimeout: 20000,
+  cluster: [],
+  dev: {
+    name: "开发环境",
+    script: "npm run build",
+    host: "1.12.54.22",
+    port: 22,
+    username: "root",
+    password: "Lizhiliang931028tx",
+    distPath: "dist",
+    webDir: "/root/code/dockerDemo/dist",
+    bakDir: "/root/code/dockerDemo/backup",
+    isRemoveRemoteFile: false,
+    isRemoveLocalFile: false,
+  },
+};
