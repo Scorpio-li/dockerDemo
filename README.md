@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-13 15:42:08
- * @LastEditTime: 2023-04-13 15:45:19
+ * @LastEditTime: 2023-04-20 14:56:19
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -10,6 +10,8 @@
 测试Docker部署等功能
 
 ## deploy配置文件
+
+[deploy-Npm](https://www.npmjs.com/package/deploy-cli-service?activeTab=readme)
 
 ```js
 module.exports = {
@@ -54,3 +56,10 @@ module.exports = {
   }
 }
 ```
+
+## 开发问题：
+
+1. 运行npm run build报错：error TS6504:Root file specified for compilation
+
+这个package.json的build是执行vue-tsc --noEmit && vite build，我们改成vite build
+
