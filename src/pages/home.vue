@@ -11,6 +11,9 @@ const btns = [{
 }, {
   name: '文件处理',
   url: '/fileOperate'
+}, {
+  name: '自定义指令',
+  url: '/directive'
 }]
 const router = useRouter()
 

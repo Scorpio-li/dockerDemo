@@ -21,6 +21,11 @@ const routes = [
         path: '/fileOperate',
         name: 'FileOperate',
         component: () => import('../pages/fileOperate.vue')
+    },
+    {
+        path: '/directive',
+        name: 'Directive',
+        component: () => import('../pages/directive.vue')
     }
 ]
 
