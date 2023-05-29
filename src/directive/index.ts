@@ -11,12 +11,14 @@ import longpress from './longpress' // 长按指令
 import throttle from './throttle' // 函数节流指令 
 import clickOut from './clickOut' // 点击元素外部指令 
 // import sensor from './sensor' // 神策埋点指令 
+import sizeOb from './sizeDirect' //元素尺寸监听
 
 const directives = {
     debounce,
     longpress,
     throttle,
-    clickOut
+    clickOut,
+    sizeOb
 }
 
 // 批量注册

@@ -16,6 +16,10 @@ const clickImgOut = () => {
     console.log('点击弹窗外部')
 }
 
+const handleResize = (data: any) => {
+    console.log('监听尺寸', data)
+}
+
 
 </script>
 
@@ -38,9 +42,25 @@ const clickImgOut = () => {
             <p>文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
         </div>
     </div>
+    <!-- 监听元素尺寸变化 -->
+    <div class="resize-fa">
+        <div class="resize" v-size-ob="handleResize">监听尺寸</div>
+    </div>
   </div>
 </template>
 
-<style scoped>
 
+
+<style scoped>
+/* .resize-fa {
+    width: 100%;
+    height: 100%;
+} */
+.resize {
+    border: 1px solid #ccc;
+    background: rgb(204, 204, 204);
+    border-radius: 12px;
+    width: 33vw;
+    height: 55vh;
+}
 </style>
