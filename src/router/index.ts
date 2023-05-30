@@ -26,6 +26,11 @@ const routes = [
         path: '/directive',
         name: 'Directive',
         component: () => import('../pages/directive.vue')
+    },
+    {
+        path: '/webRtc',
+        name: 'WebRTC',
+        component: () => import('../pages/webRtc.vue')
     }
 ]
 

@@ -14,6 +14,9 @@ const btns = [{
 }, {
   name: '自定义指令',
   url: '/directive'
+}, {
+  name: 'WebRTC测试',
+  url: '/webRtc'
 }]
 const router = useRouter()
 
