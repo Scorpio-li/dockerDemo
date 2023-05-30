@@ -31,6 +31,11 @@ const routes = [
         path: '/webRtc',
         name: 'WebRTC',
         component: () => import('../pages/webRtc.vue')
+    },
+    {
+        path: '/excelProcess',
+        name: 'ExcelProcess',
+        component: () => import('../pages/excelProcess.vue')
     }
 ]
 

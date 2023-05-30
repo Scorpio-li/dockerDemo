@@ -17,6 +17,9 @@ const btns = [{
 }, {
   name: 'WebRTC测试',
   url: '/webRtc'
+}, {
+  name: 'Excel数据处理',
+  url: '/excelProcess'
 }]
 const router = useRouter()
 
