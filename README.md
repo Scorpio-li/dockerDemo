@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-13 15:42:08
- * @LastEditTime: 2023-04-20 14:56:19
+ * @LastEditTime: 2023-05-31 16:03:22
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -63,3 +63,10 @@ module.exports = {
 
 这个package.json的build是执行vue-tsc --noEmit && vite build，我们改成vite build
 
+## 引入框架或库
+
+1. [Cesium](https://cesium.com/learn/cesiumjs-learn/cesiumjs-quickstart/)
+
+Cesium是一个跨平台，跨浏览器的展示三维地球和地图的JavaScript库。Cesium使用WebGL来进行硬件加速图形，使用时不需要任何插件的支持，但需要浏览器支持WebGL。它提供了依据Javascript的开发包，方便我们高效快速的搭建一个3D项目。
+
+2. [超图](http://support.supermap.com.cn/)
