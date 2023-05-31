@@ -20,6 +20,9 @@ const btns = [{
 }, {
   name: 'Excel数据处理',
   url: '/excelProcess'
+}, {
+  name: '3D可视化',
+  url: '/webGL'
 }]
 const router = useRouter()
 
@@ -64,5 +67,6 @@ const routerPush = (url: string) => {
 }
 .router-btns button {
   margin-right: 8px;
+  background-color: #ecf5ff;
 }
 </style>

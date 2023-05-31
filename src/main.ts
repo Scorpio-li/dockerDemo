@@ -13,6 +13,7 @@ import 'element-plus/dist/index.css'
 import App from './App.vue'
 import router from './router'
 import Directives from './directive/index'
+import "cesium/Build/Cesium/Widgets/widgets.css";
 
 const app = createApp(App)
 

@@ -36,6 +36,11 @@ const routes = [
         path: '/excelProcess',
         name: 'ExcelProcess',
         component: () => import('../pages/excelProcess.vue')
+    },
+    {
+        path: '/webGL',
+        name: 'WebGL',
+        component: () => import('../pages/webGL.vue')
     }
 ]
 

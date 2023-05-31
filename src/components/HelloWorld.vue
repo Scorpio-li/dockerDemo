@@ -2,8 +2,8 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-11 10:02:29
- * @LastEditTime: 2023-04-16 14:21:11
- * @LastEditors: Derick.lizhiliang
+ * @LastEditTime: 2023-05-31 11:40:57
+ * @LastEditors: lizhiliang
  * @Usage: 
 -->
 <script setup lang="ts">
@@ -42,5 +42,8 @@ const count = ref(0)
 <style scoped>
 .read-the-docs {
   color: #888;
+}
+button {
+  background-color: #ecf5ff;
 }
 </style>
