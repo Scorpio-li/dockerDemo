@@ -23,6 +23,9 @@ const btns = [{
 }, {
   name: '3D可视化',
   url: '/webGL'
+}, {
+  name: '页面动效',
+  url: '/pageAnimate'
 }]
 const router = useRouter()
 

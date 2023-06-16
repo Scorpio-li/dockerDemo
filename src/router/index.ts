@@ -41,6 +41,11 @@ const routes = [
         path: '/webGL',
         name: 'WebGL',
         component: () => import('../pages/webGL.vue')
+    },
+    {
+        path: '/pageAnimate',
+        name: 'PageAnimate',
+        component: () => import('../pages/pageAnimate.vue')
     }
 ]
 
