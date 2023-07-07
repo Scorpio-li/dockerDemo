@@ -1,3 +1,13 @@
+/*
+ * @Author: Derick.lizhiliang
+ * @Date: 2023-06-24 12:46:01
+ * @email: lzl102872@163.com
+ * @LastEditors: Derick.lizhiliang
+ * @LastEditTime: 2023-06-24 12:53:26
+ * @motto: Still water run deep
+ * @Description: Modify here please
+ * @FilePath: /dockerDemo/src/router/index.ts
+ */
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from '../pages/home.vue';
 
@@ -8,42 +18,42 @@ const routes = [
         component: Home
     },
     {
-        path: '/errorException',
+        path: '/errorException', // 异常加载
         name: 'ErrorException',
         component: () => import('../pages/errorException.vue')
     },
     {
-        path: '/dataProcessing',
+        path: '/dataProcessing', // 数据处理
         name: 'DataProcessing',
         component: () => import('../pages/dataProcessing.vue')
     },
     {
-        path: '/fileOperate',
+        path: '/fileOperate', // 文件操作
         name: 'FileOperate',
         component: () => import('../pages/fileOperate.vue')
     },
     {
-        path: '/directive',
+        path: '/directive', // 自定义指令
         name: 'Directive',
         component: () => import('../pages/directive.vue')
     },
     {
-        path: '/webRtc',
+        path: '/webRtc', // webRtc
         name: 'WebRTC',
         component: () => import('../pages/webRtc.vue')
     },
     {
-        path: '/excelProcess',
+        path: '/excelProcess', // Excel数据处理
         name: 'ExcelProcess',
         component: () => import('../pages/excelProcess.vue')
     },
     {
-        path: '/webGL',
+        path: '/webGL', // 3D可视化
         name: 'WebGL',
         component: () => import('../pages/webGL.vue')
     },
     {
-        path: '/pageAnimate',
+        path: '/pageAnimate', // 页面动画
         name: 'PageAnimate',
         component: () => import('../pages/pageAnimate.vue')
     }

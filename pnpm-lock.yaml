@@ -1,8 +1,4 @@
-lockfileVersion: '6.1'
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
+lockfileVersion: '6.0'
 
 dependencies:
   '@derick1028/data-processing':
@@ -10,10 +6,10 @@ dependencies:
     version: 1.0.1-alpha.2
   cesium:
     specifier: ^1.105.2
-    version: 1.105.2
+    version: 1.106.1
   element-plus:
     specifier: ^2.3.5
-    version: 2.3.5(vue@3.2.47)
+    version: 2.3.7(vue@3.2.47)
   file-saver:
     specifier: ^2.0.5
     version: 2.0.5
@@ -69,8 +65,8 @@ packages:
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
 
-  /@cesium/engine@2.4.0:
-    resolution: {integrity: sha512-U5/m0XSpoxr5uo7rf0+rBNw4AwTMdQRRB5FX5bcunfE6J2eyKWtMp0lRhcTKVDN0O7HZwJIIZt0rtiXt/aC0tQ==}
+  /@cesium/engine@2.4.1:
+    resolution: {integrity: sha512-8f0hBzhPUSimYLZ+cmQ0rSudm+8zYD3sBMvJcPSVt0wDpLT7tvBt9swC2v5qC2gOwGOeyFnJhXKes3ICE6SaDA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@tweenjs/tween.js': 18.6.4
@@ -85,7 +81,7 @@ packages:
       ktx-parse: 0.5.0
       lerc: 2.0.0
       mersenne-twister: 1.1.0
-      meshoptimizer: 0.18.1
+      meshoptimizer: 0.19.0
       pako: 2.1.0
       protobufjs: 7.2.3
       rbush: 3.0.1
@@ -93,11 +89,11 @@ packages:
       urijs: 1.19.11
     dev: false
 
-  /@cesium/widgets@2.3.0:
-    resolution: {integrity: sha512-U+lHh1LoDezuKN/f4Hu5WROh87S5YECsO8Vb0gcXoEEG6hHyHz2zOO8GXmDWtKPSTjq88gxAp4APGKztvn7pxQ==}
+  /@cesium/widgets@2.3.1:
+    resolution: {integrity: sha512-KC/GtcrS2t9Vf710C5a0ArG9ZawVeUhA37ISzFSCqVoAmlNd2YAjv00SZZOMtFqjMFWr7sOcm3BwMjWXnTWjvw==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@cesium/engine': 2.4.0
+      '@cesium/engine': 2.4.1
       nosleep.js: 0.12.0
     dev: false
 
@@ -316,14 +312,14 @@ packages:
     dev: true
     optional: true
 
-  /@floating-ui/core@1.2.6:
-    resolution: {integrity: sha512-EvYTiXet5XqweYGClEmpu3BoxmsQ4hkj3QaYA6qEnigCWffTP3vNRwBReTdrwDwo7OoJ3wM8Uoe9Uk4n+d4hfg==}
+  /@floating-ui/core@1.3.1:
+    resolution: {integrity: sha512-Bu+AMaXNjrpjh41znzHqaz3r2Nr8hHuHZT6V2LBKMhyMl0FgKA62PNYbqnfgmzOhoWZj70Zecisbo4H1rotP5g==}
     dev: false
 
-  /@floating-ui/dom@1.2.9:
-    resolution: {integrity: sha512-sosQxsqgxMNkV3C+3UqTS6LxP7isRLwX8WMepp843Rb3/b0Wz8+MdUkxJksByip3C2WwLugLHN1b4ibn//zKwQ==}
+  /@floating-ui/dom@1.4.2:
+    resolution: {integrity: sha512-VKmvHVatWnewmGGy+7Mdy4cTJX71Pli6v/Wjb5RQBuq5wjUYx+Ef+kRThi8qggZqDgD8CogCpqhRoVp3+yQk+g==}
     dependencies:
-      '@floating-ui/core': 1.2.6
+      '@floating-ui/core': 1.3.1
     dev: false
 
   /@protobufjs/aspromise@1.1.2:
@@ -387,8 +383,8 @@ packages:
     resolution: {integrity: sha512-Hwx9EUgdwf2GLarOjQp5ZH8ZmblzcbTBC2wtQWNKARBSxM9ezRIAUpeDTgoQRAFB0+8CNWXVA9+MaSOzOF3nPg==}
     dev: false
 
-  /@types/node@20.2.5:
-    resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
+  /@types/node@20.3.1:
+    resolution: {integrity: sha512-EhcH/wvidPy1WeML3TtYFGR83UzjxeWRen9V402T8aUGYsCHOmfoisV3ZSg03gAFIbLq8TnWOJ0f4cALtnSEUg==}
     dev: false
 
   /@types/web-bluetooth@0.0.16:
@@ -627,7 +623,7 @@ packages:
   /autolinker@4.0.0:
     resolution: {integrity: sha512-fl5Kh6BmEEZx+IWBfEirnRUU5+cOiV0OK7PEt0RBKvJMJ8GaRseIOeDU3FKf4j3CE5HVefcjHmhYPOcaVt0bZw==}
     dependencies:
-      tslib: 2.5.2
+      tslib: 2.5.3
     dev: false
 
   /balanced-match@1.0.2:
@@ -680,12 +676,12 @@ packages:
       ieee754: 1.2.1
     dev: true
 
-  /cesium@1.105.2:
-    resolution: {integrity: sha512-iX4YpOuF4qgce2iHrimMs3Yi0TY+qWiIWoeM7GZyy8fo0zubzqPd/sadr37bEtKhzOFn+JaP5nodxNUJ5exRWQ==}
+  /cesium@1.106.1:
+    resolution: {integrity: sha512-89sgLqWBhj57wtC8Jfn1yKfN3+Vk5IYxeW+5KqOZ280AL6Rr7E+MWTFiEfp5P3MY3xEcrutN3v8GYgP+Q3JfbA==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@cesium/engine': 2.4.0
-      '@cesium/widgets': 2.3.0
+      '@cesium/engine': 2.4.1
+      '@cesium/widgets': 2.3.1
     dev: false
 
   /cfb@1.2.2:
@@ -825,14 +821,14 @@ packages:
     resolution: {integrity: sha512-/pjZsA1b4RPHbeWZQn66SWS8nZZWLQQ23oE3Eam7aroEFGEvwKAsJfZ9ytiEMycfzXWpca4FA9QIOehf7PocBQ==}
     dev: false
 
-  /element-plus@2.3.5(vue@3.2.47):
-    resolution: {integrity: sha512-g27DHm2C5/tPwte9H6Juu+JOdzT9z1ALHTIvia6MwnBdCrI4kd77o6KcYdodU15/tYiPBoCEmobhl/7GUDb+1Q==}
+  /element-plus@2.3.7(vue@3.2.47):
+    resolution: {integrity: sha512-h6TxclbaLUJxg/Bv5j/ZKsK+K5yadQliw5+R30HWyE69pXlqXTX24oYx+yw3pA4Dy+lqEDi5501FQ0CORk3OSA==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@ctrl/tinycolor': 3.6.0
       '@element-plus/icons-vue': 2.1.0(vue@3.2.47)
-      '@floating-ui/dom': 1.2.9
+      '@floating-ui/dom': 1.4.2
       '@popperjs/core': /@sxzz/popperjs-es@2.11.7
       '@types/lodash': 4.14.195
       '@types/lodash-es': 4.17.7
@@ -1134,8 +1130,8 @@ packages:
     resolution: {integrity: sha512-mUYWsMKNrm4lfygPkL3OfGzOPTR2DBlTkBNHM//F6hGp8cLThY897crAlk3/Jo17LEOOjQUrNAx6DvgO77QJkA==}
     dev: false
 
-  /meshoptimizer@0.18.1:
-    resolution: {integrity: sha512-ZhoIoL7TNV4s5B6+rx5mC//fw8/POGyNxS/DZyCJeiZ12ScLfVwRE/GfsxwiTkMYYD5DmK2/JXnEVXqL4rF+Sw==}
+  /meshoptimizer@0.19.0:
+    resolution: {integrity: sha512-58qz5Qc/6Geu8Ib3bBWERE5R7pM5ErrJVo16fAtu6ryxVaE3VAtM/u2vurDxaq8AGZ3yWxuM/DnylTga5a4XCQ==}
     dev: false
 
   /mimic-fn@2.1.0:
@@ -1282,7 +1278,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 20.2.5
+      '@types/node': 20.3.1
       long: 5.2.3
     dev: false
 
@@ -1508,8 +1504,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib@2.5.2:
-    resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
+  /tslib@2.5.3:
+    resolution: {integrity: sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==}
     dev: false
 
   /tweetnacl@0.14.5:

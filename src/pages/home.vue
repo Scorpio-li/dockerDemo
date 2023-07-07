@@ -1,3 +1,13 @@
+<!--
+ * @Author: Derick.lizhiliang
+ * @Date: 2023-06-24 12:46:01
+ * @email: lzl102872@163.com
+ * @LastEditors: Derick.lizhiliang
+ * @LastEditTime: 2023-06-24 12:49:07
+ * @motto: Still water run deep
+ * @Description: Modify here please
+ * @FilePath: /dockerDemo/src/pages/home.vue
+-->
 <script setup lang="ts">
 import HelloWorld from '../components/HelloWorld.vue';
 import { useRouter } from "vue-router";
@@ -72,4 +82,7 @@ const routerPush = (url: string) => {
   margin-right: 8px;
   background-color: #ecf5ff;
 }
+.router-btns button {
+    margin-bottom: 15px;
+  }
 </style>
