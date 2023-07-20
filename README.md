@@ -7,7 +7,9 @@
  * @Usage: 
 -->
 # dockerDemo
+
 测试Docker部署等功能
+测试Vue项目中可能用到的功能
 
 ## deploy配置文件
 
@@ -70,3 +72,22 @@ module.exports = {
 Cesium是一个跨平台，跨浏览器的展示三维地球和地图的JavaScript库。Cesium使用WebGL来进行硬件加速图形，使用时不需要任何插件的支持，但需要浏览器支持WebGL。它提供了依据Javascript的开发包，方便我们高效快速的搭建一个3D项目。
 
 2. [超图](http://support.supermap.com.cn/)
+
+
+## 功能模块
+
+1. 加载异常（errorException）
+
+2. 数据处理（dataProcessing）
+
+3. 文件处理（fileOperate）
+
+4. 自定义指令（directive）
+
+5. WebRTC测试（webRtc）
+
+6. Excel数据处理（excelProcess）
+
+7. 3D可视化（webGL）
+
+8. 页面动效（pageAnimate）
