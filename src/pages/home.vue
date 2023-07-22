@@ -3,7 +3,7 @@
  * @Date: 2023-06-24 12:46:01
  * @email: lzl102872@163.com
  * @LastEditors: Derick.lizhiliang
- * @LastEditTime: 2023-06-24 12:49:07
+ * @LastEditTime: 2023-07-08 14:35:06
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /dockerDemo/src/pages/home.vue
@@ -36,6 +36,9 @@ const btns = [{
 }, {
   name: '页面动效',
   url: '/pageAnimate'
+}, {
+  name: '图片处理',
+  url: '/imageProcess'
 }]
 const router = useRouter()
 

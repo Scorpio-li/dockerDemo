@@ -56,6 +56,11 @@ const routes = [
         path: '/pageAnimate', // 页面动画
         name: 'PageAnimate',
         component: () => import('../pages/pageAnimate.vue')
+    },
+    {
+        path: '/imageProcess', // 图片处理
+        name: 'ImageProcess',
+        component: () => import('../pages/imageProcess.vue')
     }
 ]
 

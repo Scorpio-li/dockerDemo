@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@derick1028/data-processing": "1.0.1-alpha.2",
+    "@imgly/background-removal": "^1.0.3",
     "cesium": "^1.105.2",
     "element-plus": "^2.3.5",
     "file-saver": "^2.0.5",
