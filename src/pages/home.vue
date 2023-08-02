@@ -39,6 +39,9 @@ const btns = [{
 }, {
   name: '图片处理',
   url: '/imageProcess'
+}, {
+  name: 'Hooks处理验证',
+  url: '/hooksCheck'
 }]
 const router = useRouter()
 

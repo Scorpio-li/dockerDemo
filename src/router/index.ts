@@ -61,6 +61,11 @@ const routes = [
         path: '/imageProcess', // 图片处理
         name: 'ImageProcess',
         component: () => import('../pages/imageProcess.vue')
+    }, 
+    {
+        path: '/hooksCheck', // hooks验证
+        name: 'HooksCheck',
+        component: () => import('../pages/hooksCheck.vue')
     }
 ]
 
