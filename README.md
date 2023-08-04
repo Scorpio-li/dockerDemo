@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-13 15:42:08
- * @LastEditTime: 2023-05-31 16:03:22
+ * @LastEditTime: 2023-08-04 15:22:47
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -75,6 +75,8 @@ Cesium是一个跨平台，跨浏览器的展示三维地球和地图的JavaScri
 
 3. [抠图插件](imgly/background-removal)
 
+4. [WangEditor](https://www.wangeditor.com/)
+
 ## 功能模块
 
 1. 加载异常（errorException）
@@ -92,3 +94,9 @@ Cesium是一个跨平台，跨浏览器的展示三维地球和地图的JavaScri
 7. 3D可视化（webGL）
 
 8. 页面动效（pageAnimate）
+
+9. 图片处理（imageProcess）
+
+10. Hooks处理验证（hooksCheck）
+
+11. 富文本编辑器（vueEditor）

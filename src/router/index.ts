@@ -66,6 +66,11 @@ const routes = [
         path: '/hooksCheck', // hooks验证
         name: 'HooksCheck',
         component: () => import('../pages/hooksCheck.vue')
+    },
+    {
+        path: '/vueEditor', // 富文本编辑器
+        name: 'VueEditor',
+        component: () => import('../pages/vueEditor.vue')
     }
 ]
 

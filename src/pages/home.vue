@@ -42,6 +42,9 @@ const btns = [{
 }, {
   name: 'Hooks处理验证',
   url: '/hooksCheck'
+}, {
+  name: '富文本编辑器',
+  url: '/vueEditor'
 }]
 const router = useRouter()
 
