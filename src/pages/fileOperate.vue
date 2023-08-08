@@ -2,16 +2,18 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-19 18:02:10
- * @LastEditTime: 2023-04-20 14:26:44
- * @LastEditors: lizhiliang
+ * @LastEditTime: 2023-08-07 21:59:07
+ * @LastEditors: Derick.lizhiliang
  * @Usage: 
 -->
 <template>
-    <button 
-        v-if="visible"
-        type="primary"
-        @click="exportRouters"
-    >导出路由</button>
+  <!--  -->
+  <!-- 导出当前系统路由 -->
+  <button 
+      v-if="visible"
+      type="primary"
+      @click="exportRouters"
+  >导出路由</button>
 </template>
   
 <script>
@@ -38,3 +40,9 @@
     }
   }
   </script>
+  
+  <style scoped>
+    button {
+      background: #FFFFFF;
+    }
+  </style>
