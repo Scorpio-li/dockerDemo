@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- 抠图 -->
         <section>
             <h1>
                 <a href="https://blog.csdn.net/imsopoor/article/details/131577423" target="_blank" rel="noopener noreferrer">本地抠图工具</a>
@@ -24,6 +25,17 @@
                 <el-image v-if="feedBackImg"  :src="feedBackImg" fit="contain" />
                 </el-col>
             </el-row>
+        </section>
+        <!-- 图片处理 -->
+        <section>
+          <h2>把背景图片变为黑白</h2>
+          <!-- 让图片变成黑白色 -->
+          <div class="header"></div>
+          <h2>流光效果</h2>
+          <!-- 流光效果 -->
+          <div class="img-light">
+              <img src="https://t7.baidu.com/it/u=4240641596,3235181048&fm=193&f=GIF" width="640" height="384">
+          </div>
         </section>
     </div>
 </template>
@@ -79,3 +91,42 @@ const removeBackgorund = async (temUrl: image_src) => {
   feedBackImg.value = url;
 };
 </script>
+
+<style scoped>
+/* 让图片变成黑白色 */
+.header {
+    background: no-repeat center center;
+    background-color: #ccc;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-bottom: 0;
+    
+    background-image: url(https://t7.baidu.com/it/u=852388090,130270862&fm=193&f=GIF);
+    filter: grayscale(100%);
+    width: 300px;
+    height: 300px;
+}
+/* 流光效果 */
+.img-light {
+    position: relative;
+    width: 640px;
+    height: 384px;
+}
+
+.img-light::after {
+    content: "";
+    height: 100%;
+    width: 100px;
+    transform: skewX(-25deg) translateZ(0);
+    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0.3) 50%, hsla(0, 0%, 100%, 0));
+    position: absolute;
+    left: -150%;
+    top: 0;
+    z-index: 2;
+}
+
+.img-light:hover::after {
+    transition: left 2s ease-in-out;
+    left: 150%;
+}
+</style>
