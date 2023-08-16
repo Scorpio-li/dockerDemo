@@ -45,6 +45,9 @@ const btns = [{
 }, {
   name: '富文本编辑器',
   url: '/vueEditor'
+}, {
+  name: '自定义弹窗',
+  url: '/dialog'
 }]
 const router = useRouter()
 
