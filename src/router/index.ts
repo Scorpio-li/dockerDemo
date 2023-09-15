@@ -2,8 +2,8 @@
  * @Author: Derick.lizhiliang
  * @Date: 2023-06-24 12:46:01
  * @email: lzl102872@163.com
- * @LastEditors: Derick.lizhiliang
- * @LastEditTime: 2023-06-24 12:53:26
+ * @LastEditors: lizhiliang
+ * @LastEditTime: 2023-09-15 14:17:39
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /dockerDemo/src/router/index.ts
@@ -81,6 +81,11 @@ const routes = [
         path: '/echartsDemo', // Echarts示例
         name: 'EchartsDemo',
         component: () => import('../pages/echartsDemo.vue')
+    },
+    {
+        path: '/localforage', // localforage离线存储示例
+        name: 'Localforage',
+        component: () => import('../pages/localforage.vue')
     }
 ]
 

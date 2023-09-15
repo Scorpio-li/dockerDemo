@@ -77,6 +77,10 @@ Cesium是一个跨平台，跨浏览器的展示三维地球和地图的JavaScri
 
 4. [WangEditor](https://www.wangeditor.com/)
 
+5. [localForage](https://localforage.docschina.org/)
+
+localForage 是一个 JavaScript 库，通过简单类似 localStorage API 的异步存储来改进你的 Web 应用程序的离线体验。它能存储多种类型的数据，而不仅仅是字符串。
+
 ## 功能模块
 
 1. 加载异常（errorException）
@@ -100,3 +104,5 @@ Cesium是一个跨平台，跨浏览器的展示三维地球和地图的JavaScri
 10. Hooks处理验证（hooksCheck）
 
 11. 富文本编辑器（vueEditor）
+
+12. 离线存储（localForage）

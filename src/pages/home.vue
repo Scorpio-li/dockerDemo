@@ -2,8 +2,8 @@
  * @Author: Derick.lizhiliang
  * @Date: 2023-06-24 12:46:01
  * @email: lzl102872@163.com
- * @LastEditors: Derick.lizhiliang
- * @LastEditTime: 2023-07-08 14:35:06
+ * @LastEditors: lizhiliang
+ * @LastEditTime: 2023-09-15 14:37:16
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /dockerDemo/src/pages/home.vue
@@ -51,6 +51,9 @@ const btns = [{
 }, {
   name: 'Echarts示例',
   url: '/echartsDemo'
+}, {
+  name: 'Localforage示例',
+  url: '/localforage'
 }]
 const router = useRouter()
 
