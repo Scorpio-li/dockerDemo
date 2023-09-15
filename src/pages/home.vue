@@ -48,6 +48,9 @@ const btns = [{
 }, {
   name: '自定义弹窗',
   url: '/dialog'
+}, {
+  name: 'Echarts示例',
+  url: '/echartsDemo'
 }]
 const router = useRouter()
 

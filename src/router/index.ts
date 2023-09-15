@@ -76,6 +76,11 @@ const routes = [
         path: '/dialog', // 自定义弹窗
         name: 'Dialog',
         component: () => import('../pages/dialog.vue')
+    },
+    {
+        path: '/echartsDemo', // Echarts示例
+        name: 'EchartsDemo',
+        component: () => import('../pages/echartsDemo.vue')
     }
 ]
 
