@@ -17,6 +17,7 @@
     "@wangeditor/editor": "^5.1.23",
     "@wangeditor/editor-for-vue": "^5.1.12",
     "cesium": "^1.105.2",
+    "echarts": "^5.4.3",
     "element-plus": "^2.3.5",
     "file-saver": "^2.0.5",
     "vue": "^3.2.47",

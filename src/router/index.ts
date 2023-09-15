@@ -71,6 +71,16 @@ const routes = [
         path: '/vueEditor', // 富文本编辑器
         name: 'VueEditor',
         component: () => import('../pages/vueEditor.vue')
+    },
+    {
+        path: '/dialog', // 自定义弹窗
+        name: 'Dialog',
+        component: () => import('../pages/dialog.vue')
+    },
+    {
+        path: '/echartsDemo', // Echarts示例
+        name: 'EchartsDemo',
+        component: () => import('../pages/echartsDemo.vue')
     }
 ]
 
