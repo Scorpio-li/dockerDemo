@@ -3,7 +3,7 @@
  * @Date: 2023-06-24 12:46:01
  * @email: lzl102872@163.com
  * @LastEditors: lizhiliang
- * @LastEditTime: 2023-09-15 14:17:39
+ * @LastEditTime: 2024-01-09 14:49:46
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /dockerDemo/src/router/index.ts
@@ -91,6 +91,11 @@ const routes = [
         path: '/csspage', // 全屏滚动效果
         name: 'Csspage',
         component: () => import('../pages/csspage.vue')
+    },
+    {
+        path: '/firework', // 烟花效果
+        name: 'Firework',
+        component: () => import('../pages/firework/index.vue')
     }
 ]
 

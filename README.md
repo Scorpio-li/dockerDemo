@@ -106,3 +106,5 @@ localForage 是一个 JavaScript 库，通过简单类似 localStorage API 的�
 11. 富文本编辑器（vueEditor）
 
 12. 离线存储（localForage）
+
+13. 烟花效果（firework）

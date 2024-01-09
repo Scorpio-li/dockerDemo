@@ -57,6 +57,9 @@ const btns = [{
 }, {
   name: '全屏滚动效果',
   url: '/csspage'
+}, {
+  name: '烟花效果',
+  url: '/firework'
 }]
 const router = useRouter()
 
