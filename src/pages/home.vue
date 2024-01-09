@@ -54,6 +54,9 @@ const btns = [{
 }, {
   name: 'Localforage示例',
   url: '/localforage'
+}, {
+  name: '全屏滚动效果',
+  url: '/csspage'
 }]
 const router = useRouter()
 

@@ -86,6 +86,11 @@ const routes = [
         path: '/localforage', // localforage离线存储示例
         name: 'Localforage',
         component: () => import('../pages/localforage.vue')
+    },
+    {
+        path: '/csspage', // 全屏滚动效果
+        name: 'Csspage',
+        component: () => import('../pages/csspage.vue')
     }
 ]
 
