@@ -81,6 +81,11 @@ Cesium是一个跨平台，跨浏览器的展示三维地球和地图的JavaScri
 
 localForage 是一个 JavaScript 库，通过简单类似 localStorage API 的异步存储来改进你的 Web 应用程序的离线体验。它能存储多种类型的数据，而不仅仅是字符串。
 
+6. arco-design: 注意不能按需引入 arco-design、直接在 main.ts 中使用全局引入的方式，打包后会自动按照 cdn 引入
+
+
+
+
 ## 功能模块
 
 1. 加载异常（errorException）

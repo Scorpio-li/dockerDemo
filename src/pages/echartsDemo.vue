@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-08-28 17:33:35
- * @LastEditTime: 2023-08-28 18:05:59
+ * @LastEditTime: 2024-01-09 18:54:14
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -21,7 +21,7 @@
 <script setup lang="ts">
 // import { Component, Vue } from 'vue-property-decorator';
 import * as echarts from 'echarts';
-import '../../node_modules/echarts/map/js/world.js'
+// import '../../node_modules/echarts/map/js/world.js'
 // import '../../node_modules/echarts/map/js/china.js' // 引入中国地图数据
 
 

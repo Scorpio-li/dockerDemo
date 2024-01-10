@@ -1,9 +1,17 @@
 /*
+ * @Description: 
+ * @Author: Lizhiliang
+ * @Date: 2023-04-17 17:09:36
+ * @LastEditTime: 2024-01-09 18:27:33
+ * @LastEditors: lizhiliang
+ * @Usage: 
+ */
+/*
  * @Author: Derick.lizhiliang
  * @Date: 2023-06-24 12:46:01
  * @email: lzl102872@163.com
  * @LastEditors: lizhiliang
- * @LastEditTime: 2024-01-09 14:49:46
+ * @LastEditTime: 2024-01-09 18:22:22
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /dockerDemo/src/router/index.ts
@@ -96,6 +104,11 @@ const routes = [
         path: '/firework', // 烟花效果
         name: 'Firework',
         component: () => import('../pages/firework/index.vue')
+    },
+    {
+        path: '/arcoDesign', // 测试CDN引入
+        name: 'ArcoDesign',
+        component: () => import('../pages/arcoDesign.vue')
     }
 ]
 
