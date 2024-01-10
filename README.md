@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-13 15:42:08
- * @LastEditTime: 2023-08-04 15:22:47
+ * @LastEditTime: 2024-01-10 09:53:17
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -83,7 +83,7 @@ localForage 是一个 JavaScript 库，通过简单类似 localStorage API 的�
 
 6. arco-design: 注意不能按需引入 arco-design、直接在 main.ts 中使用全局引入的方式，打包后会自动按照 cdn 引入
 
-
+7. [rollup](https://www.rollupjs.com/): Rollup 是一个用于 JavaScript 的模块打包工具，它将小的代码片段编译成更大、更复杂的代码，例如库或应用程序。
 
 
 ## 功能模块
@@ -113,3 +113,7 @@ localForage 是一个 JavaScript 库，通过简单类似 localStorage API 的�
 12. 离线存储（localForage）
 
 13. 烟花效果（firework）
+
+## 注意事项
+
+1. 使用 CDN 未必会加快速度，只能减小打包体积，因为对应 js 和 css 需要从远程地址读取
