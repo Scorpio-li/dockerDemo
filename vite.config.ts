@@ -16,13 +16,20 @@ import { visualizer } from 'rollup-plugin-visualizer'
 import externalGlobals from 'rollup-plugin-external-globals'
 import { resolve } from 'node:path'
 import AutoImport from 'unplugin-auto-import/vite'
+import Components from "unplugin-vue-components/vite";
+import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
     visualizer({ open: true }),
-    AutoImport(), // 设置自动导入
+    AutoImport({
+      resolvers: [ElementPlusResolver()],
+    }), // 设置自动导入
+    Components({
+      resolvers: [ElementPlusResolver()],
+    }),
     // importToCDN({
     //   modules: [
     //     // 在 element-plus 这个源码中使用了 vue 依赖包里的 ref 变量
