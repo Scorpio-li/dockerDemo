@@ -16,10 +16,10 @@
  * @Description: Modify here please
  * @FilePath: /dockerDemo/src/router/index.ts
  */
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 import Home from '../pages/home.vue';
 
-const routes = [
+const routes: Array<RouteRecordRaw> = [
     {
         path: '/',
         name: 'Home',

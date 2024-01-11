@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-13 15:43:20
- * @LastEditTime: 2024-01-09 19:04:31
+ * @LastEditTime: 2024-01-11 15:01:24
  * @LastEditors: lizhiliang
  * @Usage: 
  */
@@ -14,6 +14,7 @@ import App from './App.vue'
 import router from './router'
 import Directives from './directive/index'
 import ArcoVue from '@arco-design/web-vue'
+import pinia from '@/store'
 import "cesium/Build/Cesium/Widgets/widgets.css"
 // import '@arco-design/web-vue/dist/arco.css'
 
@@ -23,4 +24,5 @@ app.use(ElementPlus)
 app.use(router)
 app.use(Directives)
 app.use(ArcoVue)
+app.use(pinia)
 app.mount('#app')
