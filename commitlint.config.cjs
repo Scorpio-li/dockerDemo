@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2024-01-11 18:18:45
- * @LastEditTime: 2024-01-11 18:31:50
+ * @LastEditTime: 2024-01-11 20:01:46
  * @LastEditors: lizhiliang
  * @Usage: 
  */
@@ -27,5 +27,34 @@ module.exports = {
             ],
         ],
         'header-max-length': [0, 'always', 72], //限制最长72
-    },
+    }
 };
+
+// module.exports = {
+//     extends: ['@commitlint/config-conventional'],
+//     rules: {
+//       'header-max-length': [2, 'always', 100],
+//     },
+//     parserPreset: {
+//       parserOpts: {
+//         headerPattern: /^(\w+)(?:\(([\w$.\-* ]+)\))?!?: (.*)$/,
+//         headerCorrespondence: ['type', 'scope', 'subject'],
+//       },
+//     },
+//     formatter: (commit) => {
+//       const emojiMap = {
+//         feat: '✨',
+//         fix: '🐛',
+//         docs: '📝',
+//         style: '💄',
+//         refactor: '♻️',
+//         test: '✅',
+//         chore: '🔧',
+//         perf: '⚡️',
+//       };
+  
+//       const emoji = emojiMap[commit.type] || '📦';
+//       return `${emoji} ${commit.type}: ${commit.subject}`;
+//     },
+//   };
+  
