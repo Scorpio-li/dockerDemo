@@ -7,14 +7,14 @@
  * @Usage: 
  */
 import { createApp } from 'vue'
-import './style.css'
+import '@/styles/index.css'
 // import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import App from './App.vue'
 import router from './router'
 import Directives from './directive/index'
 import ArcoVue from '@arco-design/web-vue'
-import pinia from '@/store'
+import pinia from '@/store/index'
 import "cesium/Build/Cesium/Widgets/widgets.css"
 // import '@arco-design/web-vue/dist/arco.css'
 

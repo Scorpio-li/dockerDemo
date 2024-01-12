@@ -50,9 +50,5 @@
     "vue-tsc": "^1.2.0"
   },
   "lint-staged": {
-      "*.{js,ts,vue}": [
-        "npm run eslint",
-        "prettier --parser=typescript --write"
-      ]
   }
 }
