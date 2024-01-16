@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-13 15:42:08
- * @LastEditTime: 2024-01-10 09:53:17
+ * @LastEditTime: 2024-01-12 15:57:45
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -146,4 +146,9 @@ rollupOptions: {
 7. pages: 管理业务代码
 
 
-
+```
+"*.{js,ts,vue}": [
+  "npm run eslint",
+  "prettier --parser=typescript --write"
+]
+```
