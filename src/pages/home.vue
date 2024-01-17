@@ -3,7 +3,7 @@
  * @Date: 2023-06-24 12:46:01
  * @email: lzl102872@163.com
  * @LastEditors: lizhiliang
- * @LastEditTime: 2024-01-09 18:24:09
+ * @LastEditTime: 2024-01-17 15:35:51
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /dockerDemo/src/pages/home.vue
@@ -63,6 +63,9 @@ const btns = [{
 }, {
   name: 'CDN加载',
   url: '/arcoDesign'
+}, {
+  name: '图片加载',
+  url: '/imageProcessing/imageloading'
 }]
 const router = useRouter()
 

@@ -105,6 +105,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "TailWind",
     component: () => import("../pages/cssPage/tailwind.vue"),
   },
+  {
+    path: "/imageProcessing/imageloading", // 图片加载
+    name: "ImageLoading",
+    component: () => import("../pages/imageProcessing/imageloading.vue"),
+  },
 ];
 
 export const router = createRouter({
