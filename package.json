@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@derick1028/data-processing": "1.0.1-alpha.2",
+    "@element-plus/icons-vue": "^2.3.1",
     "@imgly/background-removal": "^1.0.3",
     "@wangeditor/editor": "^5.1.23",
     "@wangeditor/editor-for-vue": "^5.1.12",
