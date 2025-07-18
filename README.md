@@ -2,8 +2,8 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2023-04-13 15:42:08
- * @LastEditTime: 2024-01-12 15:57:45
- * @LastEditors: lizhiliang
+ * @LastEditTime: 2025-07-18 16:44:11
+ * @LastEditors: Derick.lizhiliang
  * @Usage: 
 -->
 # dockerDemo
@@ -86,6 +86,10 @@ localForage 是一个 JavaScript 库，通过简单类似 localStorage API 的�
 7. [rollup](https://www.rollupjs.com/): Rollup 是一个用于 JavaScript 的模块打包工具，它将小的代码片段编译成更大、更复杂的代码，例如库或应用程序。
 
 8. [tailwindcss](https://tailwindcss.com/docs/configuration#content): 
+
+9. [fitview(数据大屏适配)](https://github.com/pbstar/fitview)
+
+10. [autofit.js(数据大屏适配)](https://auto-plugin.github.io/autofit.js)
 
 ## 功能模块
 
